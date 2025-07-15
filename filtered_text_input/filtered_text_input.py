@@ -4,7 +4,7 @@ import os
 
 _component_func = components.declare_component(
     "filtered_text_input",
-    path=os.path.join(os.path.dirname(__file__), "frontend/build"),
+    path=os.path.join(os.path.dirname(__file__), "frontend-react/build"),
 )
 
 def filtered_text_input(label="", key=None, default="", height=300):
